@@ -1,0 +1,18 @@
+{
+    "name": "earncef/zf2-activerecord",
+    "description": "Active record for zf2",
+    "keywords": [
+        "zf2",
+        "activerecord"
+    ],
+    "homepage": "https://github.com/earncef/zf2-activerecord",
+    "require": {
+        "php": ">=5.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ActiveRecord": "src/"
+        }
+    }
+}
